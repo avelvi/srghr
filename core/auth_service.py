@@ -13,7 +13,7 @@ class AuthService(object):
     def authorization_url(self):
         if self.session is None:
             self.session = self.get_session()
-
+        self.session.scope = 'public_repo'
         return self.session.authorization_url(config.get('oauth.url'))[0]
 
     def get_session(self):
