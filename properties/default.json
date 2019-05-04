@@ -1,0 +1,12 @@
+{
+  "app.host": "127.0.0.1",
+  "app.port": 5000,
+  "oauth.url": "https://github.com/login/oauth/authorize",
+  "client.id": "REPLACE_ME",
+  "client.secret": "REPLACE_ME",
+  "token.url": "https://github.com/login/oauth/access_token",
+  "api.url": "https://api.github.com",
+  "repo.owner": "avelvi",
+  "repo.name": "srghr",
+  "log.level": "INFO"
+}
